@@ -13,15 +13,11 @@ abstract class Species {
   /**
 	 * @param args
 	 */	
-	float fHeigh;
-	float fWeight;
-	int[] fSizes = {'1','2','3','4','5','6',7}; // 4 = normal size
-	boolean fGender; // false = female
-		
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	private float fHeigh;
+	private float fWeight;
+	private int[] fSizes = {'1','2','3','4','5','6',7}; // 4 = normal size
+	private boolean fGender; // false = female
+	
 
 }
 
